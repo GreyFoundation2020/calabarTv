@@ -1,0 +1,45 @@
+/* .logo{
+    background: darkgreen;
+    color: white;
+    font-family: 
+    Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+.navbar {
+    background: darkgreen;
+    color: white;
+}
+
+.container-fluid a {
+    color: white;
+}
+
+.dome {
+    display: flex;
+    position: relative;
+    -ms-zoom-animation: default;
+}
+
+.bodyimage img {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(19 133 54);
+}
+
+.main-text {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-text h1 {
+    font-size: 8rem;
+}
+
+.main-text p {
+    color: white;
+    background: darkgreen;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding: 10px;
+}
